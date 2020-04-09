@@ -315,6 +315,15 @@ ol {
 	font-weight: 500;
 }
 
+.header-img-item {
+	text-align: right;
+}
+
+.header-img {
+	width: 30px;
+	margin-left: 5px;
+}
+
 .nav-switch {
 	display: none;
 }
@@ -1638,6 +1647,62 @@ ol {
 	color: #fff;
 	margin-bottom: 0;
 }
+/*
+.social-conteudo img{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 60px;
+}
+
+.social-img {
+	margin-right: 100px;
+}
+*/
+
+.social-conteudo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.social-img {
+	margin-bottom: 60px;
+}
+
+.escola-title-social {
+	color: #111111;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+/*------------------
+	Acervos
+-------------------*/
+
+.acervo-icon img{
+	width: 250px;
+	margin-bottom: 30px;
+}
+.container-acervo{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	justify-content: center;
+	text-align: center;
+}
+.acervo-item{
+	margin-right: 30px;
+	margin-bottom: 70px;
+}
+
+.museu-nacional-icon img{
+    height: 175px;
+}
+
+.ibram_icon{
+    height: 175px;
+    margin-top: 20px;
+}
 
 /*------------------
 	Responsive
@@ -1846,18 +1911,4 @@ ol {
 	.comment-warp .comment .comment-content {
 		padding-left: 0;
 	}
-}
-.acervo-icon img{
-	width: 250px;
-	margin-bottom: 30px;
-}
-.container-acervo{
-	display: grid;
-	grid-template-columns: 300px 300px 300px 300px;
-	justify-content: center;
-	text-align: center;
-}
-.acervo-item{
-	margin-right: 30px;
-	margin-bottom: 70px;
 }
