@@ -506,6 +506,32 @@ ol {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.documentos-img {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+a[href="#top"]{
+    padding: 10px;
+    position:fixed;
+    top: 80%;
+    right:40px;
+	display:none;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+
+.subir {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
 #nsa-icon{
 	width: 85px;
 }
@@ -594,6 +620,12 @@ ol {
 	margin-bottom: -50px;
 }
 
+.curso-item-centralizar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .course-item {
 	margin-bottom: 50px;
 }
@@ -639,6 +671,14 @@ ol {
 	color: #f6783a;
 	font-size: 14px;
 	margin-bottom: 10px;
+}
+
+.container_botoes{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .course-item .course-info h4 {
@@ -1689,6 +1729,7 @@ ol {
 	grid-template-columns: 300px 300px 300px 300px;
 	justify-content: center;
 	text-align: center;
+	margin-bottom: -125px;
 }
 .acervo-item{
 	margin-right: 30px;
