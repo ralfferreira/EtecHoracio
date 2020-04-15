@@ -392,12 +392,12 @@ ol {
 	width: auto;
 	padding: 16px;
 	margin-top: -22px;
-	color: white;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
+	background-color: rgba(0, 0, 0, 0.658);
   }
   
   /* Position the "next button" to the right */
@@ -583,12 +583,24 @@ ol {
 	margin-right: auto;
 }
 
-.documentos-img {
-	margin-left: 50px;
-	margin-bottom: 10px;
-	width: 100px;
-	height: 100px;
+#etec-microsoft-icon{
+    width: 150px;
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
+#teams-icon{
+    width: 150px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.documentos-img {
+	margin-left: 25px;
+	margin-bottom: 10px;
+	width: 70px;
+	height: 70px;
+}
+
 
 a[href="#top"]{
     padding: 10px;
@@ -617,10 +629,6 @@ a[href="#top"]:hover{
 #cps-icon{
 	width: 70px;
 	margin-top: 5px;
-}
-#etec-microsoft-icon{
-	width: 150px;
-	margin-top: -10px;
 }
 #inovacps-icon{
 	width: 100px;
@@ -771,6 +779,80 @@ a[href="#top"]:hover{
 	font-size: 14px;
 	font-weight: 500;
 	color: #b7b7b7;
+}
+
+.botoes-ancora{
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.botao-rosa{
+    border: solid #F96C61;
+}
+.botao-rosa a{
+    color: #F96C61;
+}
+.botao-rosa:hover a{
+    background-color: #F96C61;
+    height: 100%;
+    color: white;
+    align-items: center;
+	display: flex;
+	transition: 0.5s;
+}
+.botao-vermelho{
+    border: solid #4CADC9;
+}
+.botao-vermelho a{
+    color: #4CADC9;
+}
+.botao-vermelho:hover a{
+    background-color: #4CADC9;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+.botao-verde{
+    border: solid rgb(207, 142, 1);
+}
+.botao-verde a{
+    color: rgb(207, 142, 1);
+}
+.botao-verde:hover a{
+    background-color: rgb(207, 142, 1);
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+	display: flex;
+	transition: 0.5s;
+    justify-content: center;
+}
+.botao-azul{
+    border: solid #7d40e7;
+    width: 100%;
+    height: 100%;
+}
+.botao-azul a{
+    color: #7d40e7;
+}
+.botao-azul:hover a{
+    background-color:#7d40e7;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
 }
 
 /*---------------------
@@ -1800,6 +1882,47 @@ a[href="#top"]:hover{
 	margin-top: 25px;
 	font-size: 20px;
 }
+
+
+.credito {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+    
+  .cred_profile {
+	  width: 300px;
+	  height: 300px;
+  }
+  
+  .card {
+	justify-content: space-around;
+	max-width: 300px;
+	height: 425px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	text-align: center;
+  }
+
+.cred_img {
+	width: 30px;
+	margin-right: 10px;
+}
+
+.card_social {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+  .card h1 {
+	  margin-top: 30px;
+	  color: black;
+	  font-size: 20px;
+  }
+
 
 /*------------------
 	Acervos
