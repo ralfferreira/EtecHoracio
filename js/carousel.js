@@ -24,13 +24,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " btnactive";
 }
-
-
-function apmAbrir() {
-  var x = document.getElementById("divAbre");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
