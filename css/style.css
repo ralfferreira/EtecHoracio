@@ -325,6 +325,13 @@ ol {
 	display: none;
 }
 
+.mapa {
+	width: 1000px;
+	height: 500px;
+	margin-top: -80px;
+	margin-bottom: 100px;
+}
+
 .nav-section {
 	background: #020031;
 }
@@ -859,13 +866,20 @@ a[href="#top"]:hover{
 	Seção das informações e curiosidades
 -----------------------*/
 
-.fact-section {
+.curiosidade-section {
+	background: url('../img/etec_has.jpeg');
 	background-position: center center;
 	position: relative;
-	justify-content: center;
 }
 
-.fact-section:after {
+.curiosidade-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.curiosidade-section:after {
 	position: absolute;
 	content: '';
 	width: 100%;
@@ -876,46 +890,134 @@ a[href="#top"]:hover{
 	opacity: 0.8;
 }
 
-.fact-section .container {
+.curiosidade-section .curiosidade-container {
 	position: relative;
-	z-index: 1;
+	z-index: 1;	
 }
 
-.fact {
+.curiosidade {
 	text-align: center;
-	display: block;
-	margin-left: auto;
-	justify-content: center;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
-.fact-icon {
+.curiosidade-icon {
 	font-size: 48px;
-	color: #fff;
-	width: 50px;
-	display: inline-block;
-	padding: 17px;
-	text-align: center;
-}
-
-.fact-text {
-	padding-left: 20px;
-	display: inline-block;
-	text-align: center;
-}
-
-.fact-text h2 {
+	margin: auto;
 	color: #f6783a;
-	font-weight: 400;
+	width: 50px;
 	text-align: center;
-	letter-spacing: 3px;
 }
 
-.fact-text p {
-	margin-bottom: 0;
+.curiosidade-text h2{
+	color: #f6783a;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	letter-spacing: 2px;
+}
+
+.curiosidade-text p {
+	color: #f6783a;
+}
+
+
+.container_botoes_institucionais{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.botao-institucional1{
+    border: solid #F96C61;
+}
+.botao-institucional1 a{
+    color: #F96C61;
+}
+.botao-institucional1:hover a{
+    background-color: #F96C61;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+
+.botao-institucional2{
+    border: solid #4CADC9;
+}
+.botao-institucional2 a{
+    color: #4CADC9;
+}
+.botao-institucional2:hover a{
+    background-color: #4CADC9;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.botao-institucional3{
+    border: solid rgb(207, 142, 1);
+}
+.botao-institucional3 a{
+    color: rgb(207, 142, 1);
+}
+.botao-institucional3:hover a{
+    background-color: rgb(207, 142, 1);
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.botao-institucional4{
+    border: solid #000000;
+}
+.botao-institucional4 a{
+    color: #000000;
+}
+.botao-institucional4:hover a{
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.botao-institucional5{
+    border: solid #7d40e7;
+}
+.botao-institucional5 a{
+    color: #7d40e7;
+}
+.botao-institucional5:hover a{
+    background-color: #7d40e7;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+#divAbre{
+  display: none;
 }
 
 /*---------------------
