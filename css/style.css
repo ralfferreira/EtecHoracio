@@ -1038,6 +1038,58 @@ a[href="#top"]:hover{
   display: none;
 }
 
+.inst-span-titulo{
+    font-family: arial,helvetica,sans-serif; 
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.inst-center{
+    text-align: center;
+}
+
+.inst-p-texto{
+    text-align: center;
+}
+.inst-span-texto{
+    font-family: arial,helvetica,sans-serif; 
+    font-size: 12pt;
+}
+.inst-table{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 50px;
+}
+.table-cor1{
+    background-color: #cccccc;
+}
+.table-cor2{
+    background-color: #fafafa;
+}
+.table-cor3{
+    background-color: #eeeeee;
+}
+.inst-table2{
+    width: 500px;
+    margin: auto;
+}
+.tamanho-table{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.inst-center-tb{
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 /*---------------------
 	Seção dos Eventos
 -----------------------*/
