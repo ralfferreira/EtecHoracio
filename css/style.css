@@ -795,7 +795,8 @@ a[href="#top"]:hover{
     margin-right: 10px;
     align-items: center;
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	width: 180px;
 }
 .botao-rosa{
     border: solid #F96C61;
@@ -926,12 +927,13 @@ a[href="#top"]:hover{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px 250px;
     justify-content: center;
-    text-align: center;
-    margin-top: 50px;
+	text-align: center;
+	margin-top: -35px;
 }
 
 .botao-institucional1{
-    border: solid #F96C61;
+	border: solid #F96C61;
+	width: 180px;
 }
 .botao-institucional1 {
     color: #F96C61;
@@ -949,7 +951,8 @@ a[href="#top"]:hover{
 
 
 .botao-institucional2{
-    border: solid #4CADC9;
+	border: solid #4CADC9;
+	width: 180px;
 }
 .botao-institucional2 {
     color: #4CADC9;
@@ -966,7 +969,8 @@ a[href="#top"]:hover{
 }
 
 .botao-institucional3{
-    border: solid rgb(207, 142, 1);
+	border: solid rgb(207, 142, 1);
+	width: 180px;
 }
 .botao-institucional3 {
     color: rgb(207, 142, 1);
@@ -983,7 +987,8 @@ a[href="#top"]:hover{
 }
 
 .botao-institucional4{
-    border: solid #000000;
+	border: solid #000000;
+	width: 180px;
 }
 .botao-institucional4{
     color: #000000;
@@ -997,10 +1002,11 @@ a[href="#top"]:hover{
 	justify-content: center;
 	transition: 0.5s;
 	cursor: pointer;
-}
+}	
 
 .botao-institucional5{
-    border: solid #7d40e7;
+	border: solid #7d40e7;
+	width: 180px;
 }
 .botao-institucional5 {
     color: #7d40e7;
@@ -1016,7 +1022,19 @@ a[href="#top"]:hover{
 	cursor: pointer;
 }
 
-#divAbre{
+#apmAbre{
+  display: none;
+}
+#cipaAbre{
+  display: none;
+}
+#conselhoAbre{
+  display: none;
+}
+#depAbre{
+  display: none;
+}
+#gremAbre{
   display: none;
 }
 
