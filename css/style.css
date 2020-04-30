@@ -769,7 +769,7 @@ a[href="#top"]:hover{
     grid-template-columns: 200px 200px 200px 200px;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 .course-item .course-info h4 {
@@ -925,10 +925,11 @@ a[href="#top"]:hover{
 
 .container_botoes_institucionais{
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
     justify-content: center;
 	text-align: center;
 	margin-top: -35px;
+	margin-bottom: 50px;
 }
 
 .botao-institucional1{
@@ -1041,25 +1042,31 @@ a[href="#top"]:hover{
 .inst-span-titulo{
     font-family: arial,helvetica,sans-serif; 
     font-size: 14pt;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 
 .inst-center{
-    text-align: center;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.inst-center-link{
+	text-align: center;
 }
 
 .inst-p-texto{
-    text-align: center;
+    margin-left: 30px;
 }
 .inst-span-texto{
     font-family: arial,helvetica,sans-serif; 
-    font-size: 12pt;
+	font-size: 12pt;
 }
-.inst-table{
+.inst-table1{
     margin: auto;
-    width: 75%;
-    margin-bottom: 50px;
+    width: 70%;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .table-cor1{
     background-color: #cccccc;
@@ -1072,7 +1079,24 @@ a[href="#top"]:hover{
 }
 .inst-table2{
     width: 500px;
-    margin: auto;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.inst-table-gremio{
+	border: 2px solid black;
+	width: 80%;
+	margin: auto;
+	border-collapse: collapse;
+}
+.inst-table-gremio td{
+	border: 1px solid gray;
+}
+.gremio-align{
+	text-align: left;
+}
+.gremio-b{
+	font-weight: bold;
 }
 .tamanho-table{
     width: 200px;
